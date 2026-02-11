@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Member Login - All Viral Videos</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(-45deg,#ff6a00,#ee0979,#00c6ff,#0072ff);
+  background-size:400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+.card{
+  background:white;
+  padding:40px;
+  width:350px;
+  border-radius:15px;
+  box-shadow:0 15px 30px rgba(0,0,0,0.3);
+  text-align:center;
+}
+
+h2{
+  margin-bottom:5px;
+}
+
+.subtitle{
+  font-size:14px;
+  color:#666;
+  margin-bottom:20px;
+}
+
+input{
+  width:100%;
+  padding:12px;
+  margin:8px 0;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:none;
+  border-radius:8px;
+  background:#0072ff;
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+button:hover{
+  opacity:0.9;
+}
+
+#logoutBtn{
+  background:#e74a3b;
+  display:none;
+}
+
+#msg{
+  margin-top:10px;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <h2>Member Area</h2>
+  <p class="subtitle">Login untuk masuk ke blog</p
